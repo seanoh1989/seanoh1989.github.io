@@ -1,5 +1,6 @@
-# [seanoh1989.github.io](seanoh1989.github.io)
+# seanoh1989.github.io
 
-## Saehun Sean Oh's Portfolio
+### The website can be seen [HERE](seanoh1989.github.io)
+
 
 Initialized on September 12th, 2015
