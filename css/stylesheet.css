@@ -5,9 +5,21 @@ html, body {
    color:#555555;
 }
 
+.row-offcanvas {
+	height: 100%;
+}
+
+.sidebar-list {
+	padding-left: 10px;
+}
+
 .nav {
    font-family:Arial,sans-serif;
    font-size:13px;
+}
+
+.xs-footer {
+	padding: 0px;
 }
 
 a {
