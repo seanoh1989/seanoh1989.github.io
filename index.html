@@ -20,12 +20,16 @@
 		
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- Sans Pro Fontface -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+		
 	</head>
 	
 	
 	<body>
-		<!-- sidebar -->
 		<div class="row-offcanvas row-offcanvas-left">
+			<!-- sidebar -->
             <div class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
               
             	<ul class="nav">
@@ -33,11 +37,11 @@
             	</ul>
                
                 <ul class="nav hidden-xs" id="lg-menu">
-	                <li class="sidebar-brand active"><a href="index.html"> Sean </a></li>
-                    <li><a href="#featured"><i class="fa fa-folder-open-o fa-lg"></i><span class="sidebar-list">Projects</span></a></li>
-                    <li><a href="#stories"><i class="fa fa-file-pdf-o fa-lg"></i><span class="sidebar-list">Resume</span></a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o fa-lg"></i><span class="sidebar-list">Contact</span></a></li>
-                    <li><a href="#"><i class="fa fa-clone fa-lg"></i><span class="sidebar-list">Tiles</span></a></li>
+	                <li class="sidebar-brand active"><a data-toggle="tab" href="#about"> Sean </a></li>
+                    <li><a data-toggle="tab" href="#projects"><i class="fa fa-folder-open-o fa-lg"></i><span class="sidebar-list">Projects</span></a></li>
+                    <li><a data-toggle="tab" href="#resume"><i class="fa fa-file-pdf-o fa-lg"></i><span class="sidebar-list">Resume</span></a></li>
+                    <li><a data-toggle="tab" href="#contact"><i class="fa fa-envelope-o fa-lg"></i><span class="sidebar-list">Contact</span></a></li>
+                    <li><a data-toggle="tab" href="#tiles"><i class="fa fa-clone fa-lg"></i><span class="sidebar-list">Tiles</span></a></li>
                 </ul>
                 <ul class="list-unstyled hidden-xs" id="sidebar-footer">
                     <li>
@@ -49,11 +53,11 @@
               
                 <!-- tiny only nav-->
                 <ul class="nav visible-xs" id="xs-menu">
-	                <li class="sidebar-brand"><a href="index.html" class="text-center">&nbsp;S</a></li>
-                  	<li><a href="#featured" class="text-center"><i class="fa fa-folder-open-o"></i></a></li>
-                    <li><a href="#stories" class="text-center"><i class="fa fa-file-pdf-o"></i></a></li>
-                  	<li><a href="#" class="text-center"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a href="#" class="text-center"><i class="fa fa-clone"></i></a></li>
+	                <li class="sidebar-brand"><a data-toggle="tab" href="#about" class="text-center">&nbsp;S</a></li>
+                  	<li><a data-toggle="tab" href="#projects" class="text-center"><i class="fa fa-folder-open-o"></i></a></li>
+                    <li><a data-toggle="tab" href="#resume" class="text-center"><i class="fa fa-file-pdf-o"></i></a></li>
+                  	<li><a data-toggle="tab" href="#contact" class="text-center"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a data-toggle="tab" href="#tiles" class="text-center"><i class="fa fa-clone"></i></a></li>
                 </ul>
                 
                 <ul class="list-unstyled visible-xs xs-footer" id="sidebar-footer">
@@ -63,14 +67,45 @@
                 </ul>
               
             </div>
+		
+			<!-- /sidebar -->
+		
+			<!-- right pane -->
+			<div class="column col-sm-10 col-xs-11 tab-content" id="main">
+				<!-- ABOUT ME 1 -->
+				<div id="about" class="tab-pane fade in active"> 
+					<h1> About Me </h1>
+				</div>
+				<!-- /ABOUT ME -->
+					
+				<!-- PROJECTS -->
+				<div id="projects" class="tab-pane fade"> 
+					<h1> Projects </h1>
+				</div>
+				<!-- /PROJECTS -->
+
+				<!-- RESUME -->
+				<div id="resume" class="tab-pane fade"> 
+					<h1> Resume </h1>
+				</div>
+				<!-- /RESUME -->
+
+				<!-- CONTACT -->
+				<div id="contact" class="tab-pane fade"> 
+					<h1> Contact </h1>
+				</div>
+				<!-- /CONTACT -->
+
+				<!-- TILES -->
+				<div id="tiles" class="tab-pane fade"> 
+					<h1> Tiles </h1>
+				</div>
+				<!-- /TILES -->
+			</div>
+			<!-- /right pane -->
 		</div>
-		<!-- /sidebar -->
-		
-		<!-- right pane -->
-			
-		<!-- /right pane -->
-		
-		
+
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		

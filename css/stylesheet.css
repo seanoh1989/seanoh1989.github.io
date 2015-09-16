@@ -1,7 +1,7 @@
 /* custom template */
 html, body {
    height: 100%;
-   font-family:verdana,arial,sans-serif;
+   font-family:'Source Sans Pro', verdana, arial, sans-serif;
    color:#555555;
 }
 
@@ -14,7 +14,7 @@ html, body {
 }
 
 .nav {
-   font-family:Arial,sans-serif;
+   font-family:'Source Sans Pro', Arial, sans-serif;
    font-size:13px;
 }
 
@@ -36,13 +36,13 @@ hr {
 
 #sidebar {
     padding:0px;
-	height:100%;
+    height:100%;
 }
 
 #sidebar, #sidebar a, #sidebar-footer a {
     color:#ffffff;
     background-color: #555555;
-	text-shadow:0 0 2px #000000;
+	  text-shadow:0 0 2px #000000;
     padding-left:10px;
 }
 #sidebar .nav li>a:hover {
@@ -72,24 +72,21 @@ hr {
 	padding: 5px;
 }
 
-/* adjust the contents on smaller devices */
-@media (max-width: 768px) {
+#main {
+   background-color:#e9eaed;
+   padding-left:20px;
+   padding-right:0;
+   height: 100%;
+}
 
-  .column .padding {
-    padding: 7px;
+
+
+/* adjust the contents on bigger resolutions */
+@media screen and (min-width: 1550px) {
+  .nav {
+    font-family:'Source Sans Pro',Arial,sans-serif;
+    font-size:18px;
   }
-
-  .full{
-	padding-top:20px;
-  }
-
-  .navbar-blue {
-	background-color:#3B5999;
-    top:0;
-    width:100%;
-    position:relative;
-  }
-
 }
 
 /*
