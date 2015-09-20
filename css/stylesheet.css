@@ -270,7 +270,6 @@ section.success a.active {
 /* Skill Settings */
 .skill-name {
     color: #fff;
-    font-size: 130%;
 }
 #projects .skills-item {
     right: 0;
@@ -281,9 +280,9 @@ section.success a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 280px;
-    width: 280px;
-    height: 200px;
+    max-width: 200px;
+    width: 180px;
+    height: 140px;
     background-color: #0F1A23;
     text-align: center;
     padding: 40px;
