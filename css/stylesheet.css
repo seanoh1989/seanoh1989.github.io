@@ -1,5 +1,7 @@
 body {
     overflow-x: hidden;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
 }
 
 p {
@@ -244,6 +246,37 @@ hr.projects-hr:after {
 }
 /* End HR - Projects */
 
+/* HR - Contact */
+hr.contact-hr {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.contact-hr:after {
+    content: "\f003";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.contact-hr {
+    border-color: #fff;
+}
+
+hr.contact-hr:after {
+    color: #fff;
+    background-color: #627AAC;
+}
+/* End HR - Contact */
+
+
 /* Section Settings */
 section {
     padding: 100px 0;
@@ -423,6 +456,10 @@ section.success a.active {
 
 #projects .project-tags {
     text-align: right;
+}
+
+#projects .project-tags span {
+	white-space:nowrap;
 }
 #projects .project-tag-item {
     color: black;
