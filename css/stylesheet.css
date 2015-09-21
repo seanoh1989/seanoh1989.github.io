@@ -65,6 +65,18 @@ p.small {
 
 /* End Navbar Settings */
 
+/* Back to top button */
+#toTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+    color: #cc3333;
+    z-index:99;
+}
+/* End Back to top button */
+
 /* Header Settings */
 header {
     text-align: center;
@@ -335,12 +347,14 @@ section.success a.active {
 @media(min-width: 1001px) and (max-width: 1200px){
     #skills .skills-item {
         margin-right: 30px;
+        margin-left: 5px;
     }
 }
 
 @media(max-width: 767px) {
     #skills .skills-item {
         margin-right: 55px;
+        margin-left: 15px;
     }
 }
 
@@ -491,13 +505,13 @@ section.success a.active {
 }
 /* End Project Modal Settings */
 
-/* Download Button Settings */
+/* Contact & Download Button Settings */
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #000;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    color: #000;
+    background: #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -505,8 +519,8 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
+    border: solid 2px #000;
+    color: #fff;
+    background: #000;
 }
 /* End Download Button Settings */
