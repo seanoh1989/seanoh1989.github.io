@@ -70,8 +70,8 @@ p.small {
 /* Back to top button */
 #toTop{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 80px;
+    right: 40px;
     cursor: pointer;
     display: none;
     color: #cc3333;
@@ -126,8 +126,8 @@ header .intro-text .links {
 
 /* End Header Settings */
 
-/* HR - Links */
-hr.links-hr {
+/* HR - Header */
+hr.star-hr {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -136,8 +136,8 @@ hr.links-hr {
     text-align: center;
 }
 
-hr.links-hr:after {
-    content: "\f0c1";
+hr.star-hr:after {
+    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -146,15 +146,15 @@ hr.links-hr:after {
     font-size: 2em;
 }
 
-hr.links-hr {
+hr.star-hr {
     border-color: #fff;
 }
 
-hr.links-hr:after {
+hr.star-hr:after {
     color: #fff;
     background-color: #627AAC;
 }
-/* End HR - Links */
+/* End HR - Header */
 
 /* HR - About */
 hr.about-hr {
@@ -391,6 +391,20 @@ section.success a.active {
     }
 }
 
+@media(max-width: 466px) {
+    #skills .skills-item {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 376px) {
+    #skills .skills-item {
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+}
+
 /* End Skill Settings */
 
 /* Projects Settings */
@@ -561,6 +575,7 @@ section.success a.active {
     border: solid 2px #000;
     color: #000 !important;
     background: #627AAC;
+    text-shadow: 2px 2px 3px #fff;
 }
 /* End Download Button Settings */
 
@@ -598,6 +613,7 @@ footer .footer-below {
 
 .email-link:hover {
     color:#000;
+    text-shadow: 2px 2px 5px #fff;
 }
 
 .btn-social {
@@ -620,6 +636,7 @@ footer .footer-below {
 
 .btn-social:hover i{
     color: #000;
+    text-shadow: 0 0 8px #fff;
 }
 
 /* End Footer */
