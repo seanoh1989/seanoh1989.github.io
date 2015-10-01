@@ -134,8 +134,8 @@
 
 
 
-.csslider1 > #cs_slide1_0:checked ~ .cs_arrowprev > label.num3,
-.csslider1 > #cs_pause1_0:checked ~ .cs_arrowprev > label.num3,
+.csslider1 > #cs_slide1_0:checked ~ .cs_arrowprev > label.num4,
+.csslider1 > #cs_pause1_0:checked ~ .cs_arrowprev > label.num4,
 .csslider1 > #cs_slide1_0:checked ~ .cs_arrownext > label.num1,
 .csslider1 > #cs_pause1_0:checked ~ .cs_arrownext > label.num1, 
 .csslider1 > #cs_slide1_1:checked ~ .cs_arrowprev > label.num0,
