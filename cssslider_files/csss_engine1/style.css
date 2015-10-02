@@ -324,7 +324,7 @@
   width: 23px;
   margin-top: -28px;
   margin-left: -28px;
-
+  
   background-color: #00A2F4;
 
   border-radius: 50%;
@@ -338,11 +338,11 @@
 }
 .csslider1 > .cs_arrowprev {
   margin-left: 2px;
-  left: 45px;
+  left: 5px;
 }
 .csslider1 > .cs_arrownext {
   margin-right: 2px;
-  right: 45px;
+  right: 5px;
 }
 .csslider1 > .cs_arrowprev > label span,
 .csslider1 > .cs_arrownext > label span {
@@ -527,8 +527,9 @@ only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
 only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
 only screen and (                max-resolution: 192dpi) and (max-width: 480px),
 only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
-  .csslider1 > .cs_description,
-  .csslider1 > .cs_bullets {
-    display: none;
+  .csslider1 > .cs_bullets,
+  .csslider1 > .cs_arrowprev,
+  .csslider1 > .cs_arrownext {
+    
   }
 }
