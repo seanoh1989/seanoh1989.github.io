@@ -508,29 +508,6 @@ section.success a.active {
     opacity: .3;
 }
 
-/*
-.projects-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 35px;
-    margin-left: 35px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.projects-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 35px;
-    background-color: #2c3e50;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-*/
-
 .projects-modal .modal-backdrop {
     display: none;
     opacity: 0;
@@ -672,3 +649,4 @@ height: 100%;
 .carousel-control.left, .carousel-control.right {
     background: none;
 }
+/* End Project Carousel */
