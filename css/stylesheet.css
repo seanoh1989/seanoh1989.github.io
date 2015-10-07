@@ -495,10 +495,11 @@ section.success a.active {
 
 .projects-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 15px;
+    right: 15px;
     width: 35px;
     height: 35px;
+    z-index: 999;
     background-color: transparent;
     cursor: pointer;
 }
@@ -507,6 +508,7 @@ section.success a.active {
     opacity: .3;
 }
 
+/*
 .projects-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
@@ -527,6 +529,7 @@ section.success a.active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+*/
 
 .projects-modal .modal-backdrop {
     display: none;
