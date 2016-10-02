@@ -1,0 +1,56 @@
+@font-face {
+    font-family: bmhanna;
+    src: url(../assets_bongsik/fonts/BMHANNA11yrsold.ttf);
+}
+
+body {
+	font-family: "bmhanna", gulim;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #12181f;
+	color:white;
+}
+
+.table {
+	border: 3px solid gray;
+	display: table-cell;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle !important;
+	background: url(../assets_bongsik/stat/box_2.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none !important;
+	padding: 15px !important;
+}
+
+td.none {
+	background: url();
+}
+
+.artifacts, .relics, .pets, .raid, .towers, .sockets {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+img.costume {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+img.head {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+img.handfoot {
+	max-width: 25px;
+	max-height: 25px;
+}
+
+img.jewel {
+	max-width: 30px;
+	max-height: 30px;
+}
