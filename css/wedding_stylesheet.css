@@ -4,6 +4,7 @@ html {
 
 body {
   padding-top: 54px;
+  background-color: #DDD6D3;
 }
 
 section:before {
@@ -15,6 +16,33 @@ section:before {
 p.subtitle {
   font-family: 'Allura', cursive;
   font-size: 4em;
+  color: #102F25;
+}
+
+.navbar {
+  background-color: #718879;
+}
+
+.navbar-brand {
+  font-family: 'Allura', cursive;
+  font-size: 2em;
+}
+
+a.btn {
+  background-color: #718879;
+}
+
+a.btn:hover {
+  background-color: #2E4D43;
+}
+
+a.btn:not(:disabled):not(.disabled):focus {
+  background-color: #2E4D43;
+}
+
+.img-frame {
+  box-shadow: 15px 15px 35px 15px #DDD6D3 inset;
+  opacity: 0.75;
 }
 
 .mirrored-vertical {
