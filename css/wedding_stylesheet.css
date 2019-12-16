@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 54px;
+}
+
+section:before {
+    height: 24px;
+    content: "";
+    display:block;
+}
