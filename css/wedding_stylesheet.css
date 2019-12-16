@@ -4,7 +4,7 @@ html {
 
 body {
   padding-top: 54px;
-  background-color: #DDD6D3;
+  background-color: white;
 }
 
 section:before {
@@ -41,7 +41,7 @@ a.btn:not(:disabled):not(.disabled):focus {
 }
 
 .img-frame {
-  box-shadow: 15px 15px 35px 15px #DDD6D3 inset;
+  box-shadow: 15px 15px 35px 15px #white inset;
   opacity: 0.75;
 }
 
