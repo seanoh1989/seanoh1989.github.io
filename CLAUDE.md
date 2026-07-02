@@ -59,8 +59,8 @@ corrupted the impact numbers. Do **not** reintroduce a bundler/framework.
   gracefully** if it fails (e.g. the time fetch only corrects a value already computed
   locally, so a failure is invisible; the font CDN falls back to system fonts).
 - Don't rely solely on `mailto:` / `tel:` for contact CTAs — they do nothing when the
-  visitor has no registered handler. The email CTAs also copy the address to the clipboard
-  with a visible toast.
+  visitor has no registered handler. The email and phone CTAs also copy the value to the
+  clipboard with a visible toast.
 - Links that open a new tab (`target="_blank"`) must include `rel="noopener noreferrer"`.
   Keep `mailto:` / `tel:` in the same tab so they don't spawn empty tabs.
 - Prefer keeping this a static, no-build deploy.

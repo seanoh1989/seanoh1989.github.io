@@ -676,7 +676,7 @@
     });
   });
 
-  // --- email CTAs: copy to clipboard as a fallback (mailto: still fires) ---
+  // --- email / phone CTAs: copy to clipboard as a fallback (mailto:/tel: still fire) ---
   function toast(msg){
     var t = document.createElement('div');
     t.className = 'toast';
@@ -707,12 +707,19 @@
     }
   }
   document.addEventListener('click', function(e){
-    var a = e.target && e.target.closest ? e.target.closest('a[href^="mailto:"]') : null;
+    var a = e.target && e.target.closest ? e.target.closest('a[href^="mailto:"], a[href^="tel:"]') : null;
     if(!a) return;
-    var email = a.getAttribute('href').slice(7).split('?')[0];
-    if(!email) return;
-    copy(email);
-    toast(email + ' copied ✓');
+    var href = a.getAttribute('href');
+    var value;
+    if(href.indexOf('tel:') === 0){
+      var valEl = a.querySelector('div:last-child');   // copy the number as shown on the card
+      value = valEl ? valEl.textContent.trim() : href.slice(4);
+    } else {
+      value = href.slice(7).split('?')[0];
+    }
+    if(!value) return;
+    copy(value);
+    toast(value + ' copied ✓');
   }, true);
 })();
 </script>
